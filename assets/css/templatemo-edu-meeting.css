@@ -190,16 +190,32 @@ body {
 
 .section-heading h2 {
   line-height: 40px;
-  margin-top: 0px;
+  /* margin-top: 0px; */
   margin-bottom: 50px; 
   padding-bottom: 20px;
-  border-bottom: 1px solid #1f5fd7;;
+  border-bottom: 1px solid #f4f6f8;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #1f5fd7;
+  color: #f4f6f8;
 }
+.temoignage h2{
+  margin-top: -100px;
+  color: #0454e7;
+  border-bottom: 1px solid #0454e7;
 
+}
+.actualite h2{
+  margin-top: -200px;
+  color: #0454e7;
+  border-bottom: 1px solid #0454e7;
+
+}
+.ecoles h2{
+  margin-top: -100px;
+  color: #0454e7;
+  border-bottom: 1px solid #0454e7;
+}
 
 /* 
 ---------------------------------------------
@@ -900,6 +916,8 @@ upcoming meetings
 
 section.upcoming-meetings {
   /* background-image: url(../images/meetings-bg.jpg); */
+  background-image: url(../images/apply-bg.jpg);
+
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1050,7 +1068,7 @@ section.apply-now {
 }
 
 section.apply-now .item {
-  background-color: rgba(250,250,250,0.15);
+  background-color: rgba(1, 3, 19, 0.15);
   padding: 40px;
   margin-bottom: 30px;
 }
@@ -1125,13 +1143,15 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/meetings-bg.jpg);
+  /* background-image: url(../images/meetings-bg.jpg); */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 140px;
   padding-bottom: 130px;
+  background-color: #d0e6fa;
+
 }
 
 .our-courses .item .down-content {
@@ -1850,3 +1870,64 @@ responsive
   }
 
 }
+/*
+---------------------------------------------
+Temoignag
+---------------------------------------------
+*/
+
+.media{
+  background-color: rgb(237, 242, 248);
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 10px solid rgb(213, 233, 243);
+}
+
+.all-items-link a {
+  color: #0075b5;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.temoignages .media-body .auteur {
+  color: #003662;
+  margin: 0;
+}
+.temoignages .media-body p {
+  font-size: 1rem;
+}
+.text-right {
+  text-align: right!important;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.temoignages .media-body p:nth-child(1) {
+  color: #003662;
+  font-weight: 500;
+}
+.temoignages .media-body p {
+  font-size: 1rem;
+}
+.temoignages .media-body {
+  line-height: 1.5;
+}
+.circular--landscape {
+  border-radius: 100%;
+  overflow: hidden;
+  display:inline-block;
+  vertical-align:middle;
+}
+  .circular--landscape img{
+    width:100%;
+  }
+
+  
