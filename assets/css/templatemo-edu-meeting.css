@@ -44,7 +44,6 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -53,7 +52,6 @@ figure, header, nav, section, article, aside, footer, figcaption {
   line-height: 0;
   height: 0;
 }
-
 .clearfix {
   display: inline-block;
 }
@@ -268,7 +266,7 @@ header
 
 
 .background-header {
-  background-color: #fff!important;
+  background-color: #fdfafa!important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -295,7 +293,7 @@ header
 }
 
 .header-area {
-  background-color: rgb(250, 250, 250);
+  background-color: rgba(201, 199, 199, 0.301);
   position: absolute;
   top: 40px;
   left: 0;
@@ -314,7 +312,6 @@ header
 
 .header-area .main-nav .logo {
   line-height: 100px;
-  color: #ffffff;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -581,7 +578,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f5a425;
+  color: #f5c115f5;
 }
 
 @media (max-width: 1200px) {
@@ -603,7 +600,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #f5a425!important;
+    color:#f5c115f5!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -661,7 +658,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #f5a425!important;
+    color: #f5c115f5!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -724,18 +721,27 @@ banner
     object-fit: cover;
     z-index: -1;
 }
+#bg-videos {
+    min-width: 100%;
+    min-height: 50vh;
+    max-width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+}
 
 #bg-video::-webkit-media-controls {
     display: none !important;
 }
 
-.video-overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
+    background-color: rgba(7, 8, 75, 0.616);
 }
 
 .main-banner .caption {
@@ -1155,7 +1161,14 @@ section.our-courses {
 
 }
 .statistiques{margin-top: -80px;}
-.partenaires{background-color: rgb(168, 165, 165);}
+.partenaires h2{ 
+   color: #0454e7;
+  border-bottom: 1px solid #0454e7;
+
+}
+.statistiques .container{
+  background-color: rgba(168, 165, 165, 0.137);
+}
 
 .our-courses .item .down-content {
   background-color: #fff;
@@ -1296,12 +1309,15 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  /* background-image: url(../images/facts-bg.jpg); */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px 125px 0px;
+  margin-top: -250px;
+  margin-bottom: -50px;
+
 }
 
 section.our-facts h2 {
@@ -1332,11 +1348,15 @@ section.our-facts h2 {
     font-weight: 700;
     font-size: 36px;
 }
+.chiffre {
+    margin: 5px 0px;
+    color: #257ff5;
+    font-weight: 700;
+    font-size: 36px;
+}
 .count-title {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 14px;
     color: #060000;
-    letter-spacing: 0.5px;
 }
 
 .new-students {
@@ -1346,7 +1366,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  /* background-image: url(../images/video-item-bg.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
