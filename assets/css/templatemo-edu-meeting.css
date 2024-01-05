@@ -94,7 +94,7 @@ a {
 }
 
 a:hover {
-	color: #FC3;
+	color: rgb(245, 174, 20);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -129,12 +129,12 @@ body {
 }
 
 ::selection {
-  background: #f5a425;
+  background: rgb(245, 174, 20);
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f5a425;
+  background: rgb(245, 174, 20);
   color: #fff;
 }
 
@@ -173,7 +173,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: rgb(245, 174, 20);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -225,6 +225,7 @@ header
   background-color: #0b2f91;
   position: relative;
   z-index: 1111;
+  display: flex;
 }
 
 
@@ -258,17 +259,17 @@ header
 }
 
 .sub-header .right-icons ul li a:hover {
-  color: #f5a425;
+  color: rgb(245, 174, 20);
 }
 .sub-header .left-content ul li a:hover {
-  color: #f5a425;
+  color: rgb(245, 174, 20);
 }
 
 
 .background-header {
   background-color: #fdfafa!important;
   height: 80px!important;
-  position: fixed!important;
+  position: sticky!important;
   top: 0!important;
   left: 0;
   right: 0;
@@ -276,12 +277,12 @@ header
 }
 
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #061388!important;
 }
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #061388!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -293,7 +294,7 @@ header
 }
 
 .header-area {
-  background-color: rgba(201, 199, 199, 0.301);
+  background-color: #ffffff;
   position: absolute;
   top: 40px;
   left: 0;
@@ -371,12 +372,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #061388!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #061388!important;
   opacity: 1;
 }
 
@@ -421,7 +422,7 @@ header
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
   opacity: 1;
   display: block;
-  background: #1c2ec9;
+  background: #0b2f91;
   color: #fafafa!important;
   padding-left: 20px;
   height: 40px;
@@ -438,7 +439,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #f5a425!important;
+  color: rgb(245, 174, 20)!important;
   padding-left: 25px;
 }
 
@@ -571,6 +572,7 @@ header
 
 .header-area.header-sticky {
   min-height: 80px;
+
 }
 
 .header-area .nav {
@@ -578,29 +580,37 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f5c115f5;
+  color: rgb(245, 174, 20);
 }
 
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 7px;
     padding-right: 7px;
+    color: #ffffff;
 
   }
   .header-area .main-nav:before {
     display: none;
   }
+  /* .header-area .main-nav .nav li.has-sub ul.sub-menu li a{
+    background-color: #0b2f91;
+  } */
 }
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
     /* color: #1c2ec9; */
-    
+  
     
   }
+  /* .header-area .main-nav .nav li.has-sub ul.sub-menu li a{
+    background-color: #0b2f91;
+  } */
+
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color:#f5c115f5!important;
+    color:rgb(245, 174, 20)!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -643,7 +653,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: #ffffff;
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -653,12 +663,13 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
-    color: #191a20 !important;
+    background: #0b2f91 !important;
+    /* color: #191a20 !important; */
+    color: #ffffff !important
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #f5c115f5!important;
+    color: rgb(245, 174, 20)!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -671,19 +682,23 @@ header
     box-shadow: none;
     height: 0px;
     transition: all 0s;
+
   }
   .header-area .main-nav .nav li.submenu ul li a {
     font-size: 12px;
     font-weight: 400;
+
   }
   .header-area .main-nav .nav li.submenu ul li a:hover:before {
     width: 0px;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     height: auto;
+    color: #061388 !important;
+
   }
   .header-area .main-nav .nav li.has-sub:after {
-    color: #3B566E;
+    color: #ffffff;
     right: 30px;
     font-size: 14px;
     top: 15px;
@@ -691,6 +706,20 @@ header
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+  .sub-header{
+    visibility: hidden;
+    top: 0;
+  }
+  .background-header {
+    background-color: #fdfafa!important;
+    height: 80px!important;
+    position: fixed!important;
+    top: 0!important;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  }
+  
 }
 
 @media (min-width: 767px) {
@@ -771,7 +800,7 @@ banner
 
 .main-banner .caption h2 em {
   font-style: normal;
-  color: #f5a425;
+  color: rgb(245, 174, 20);
   font-weight: 900;
 }
 
@@ -1124,7 +1153,7 @@ section.apply-now .item p {
   transition: transform 200ms ease-in-out;
 }
 .accordion-head.is-open {
-  color: #f5a425;
+  color: rgb(245, 174, 20);
   border-bottom: none;
 }
 .accordion-head.is-open .icon {
@@ -1192,7 +1221,7 @@ section.our-courses {
 }
 
 .our-courses .item .down-content .info ul li i {
-  color: #f5a425;
+  color: rgb(245, 174, 20);
   font-size: 14px;
 }
 
@@ -1505,7 +1534,7 @@ section.contact-us .right-info ul li span {
 }
 
 .footer p a {
-  color: #f5a425;
+  color: rgb(245, 174, 20);
 }
 
 
@@ -1737,7 +1766,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content .share ul li a:hover {
-  color: #f5a425;
+  color: rgb(245, 174, 20);
 }
 
 /* Meeting item column */
@@ -1883,12 +1912,13 @@ responsive
 
   .main-nav .nav .sub-menu {
     display: none;
+    
     /* background: #1c2ec9; */
 
   }
 
   .header-area .main-nav .nav li ul.sub-menu li a {
-    color: #1f202b;
+    color: #061388;
 
   }
 
