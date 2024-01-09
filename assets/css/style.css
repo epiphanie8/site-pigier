@@ -1,0 +1,191 @@
+
+/* breadcrumb */
+
+.section-breadcrumb{
+    background-color: #f2f3f5fd;
+    padding: 0;
+    margin: 0;
+    min-height: 80px;
+    justify-content: center;
+}
+.section-breadcrumb nav{
+}   
+.section-breadcrumb ol li a{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 600;
+
+}
+.section-breadcrumb ol li.active a{
+   color: rgb(151, 149, 149);
+}
+.nav-items li{
+    margin-top: 25px;
+    
+}
+/* historique */
+.historique-pigier{
+    margin-top: 40px;
+}
+.historique h2{
+    color: #0454e7;
+    font-size: 36px;
+    border-bottom: 0px;
+    margin-top: 10px;
+
+}
+.historique,.diplomes h3{
+    color: #0454e7;
+    font-size: 30px;
+    border-bottom: 0px solid;
+}
+.historique-pigier,.diplomes-pigier ul {
+    list-style-type: none;
+  }
+
+.historique-pigier, .diplomes-pigier li::before {
+  content: '\2192'; 
+  margin-right: 5px;
+  color: blue;
+}
+.historique-pigier,.diplomes-pigier li {
+    font-size: 16px;
+    color: rgb(151, 149, 149);
+}
+.body-historique{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.historique-pigier{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+
+
+/* Diplome certifié */
+.diplome{
+  background-image: url(../images/diplomes-africains.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+  height: 600px;
+}
+  
+  section.heading-page h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0804e779;
+  }
+  
+  section.diplome h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0804e779;
+
+  }
+.img-diplome img{
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+}
+.body-diplomes p{
+    color: gray;
+    font-size: 16px;
+}
+.body-diplomes{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.diplomes-pigier{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.diplomes-pigier li a{
+    color: #348ff8;
+    font-weight: bold;
+}
+.diplomes h2{
+    color: #0454e7;
+    font-size: 36px;
+    border-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+
+/* Pedagogie innovante */
+.pedagogies h2{
+    color: #0454e7;
+    font-size: 36px;
+    border-bottom: 0px;
+    margin-top: 10px;
+
+}
+.pedagogie{
+  background-image: url(../images/Citations-leadership.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+  height: 600px;
+}
+  
+  section.heading-page h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0804e779;
+  }
+  
+  section.pedagogie h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0804e779;
+
+  }
+.img-pedagogie img{
+}
+.body-pedagogie p{
+    color: gray;
+    font-size: 16px;
+}
+.body-pedagogie{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.pedagogie-pigier{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.pedagogie-pigier li a{
+    color: #348ff8;
+    font-weight: bold;
+}
+

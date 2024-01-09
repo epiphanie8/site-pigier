@@ -90,7 +90,7 @@ html, body {
 
 a {
   text-decoration: none !important;
-  color: #3CF;
+  color: #061388;
 }
 
 a:hover {
@@ -294,7 +294,7 @@ header
 }
 
 .header-area {
-  background-color: #ffffff;
+  background-color: #ffffff5b;
   position: absolute;
   top: 40px;
   left: 0;
@@ -1545,13 +1545,14 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/historiques.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 230px;
   padding-bottom: 110px;
   text-align: center;
+  height: 600px;
 }
 
 section.heading-page h6 {
@@ -1566,8 +1567,8 @@ section.heading-page h6 {
 section.heading-page h2 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 36px;
-  text-transform: uppercase;
+  font-size: 60px;
+  text-transform: capitalize;
   font-weight: 800;
   color: #fff;
   letter-spacing: 1px;
