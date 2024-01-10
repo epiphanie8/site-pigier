@@ -148,16 +148,6 @@
   height: 600px;
 }
   
-  section.heading-page h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 60px;
-    text-transform: capitalize;
-    font-weight: 800;
-    color: #fff;
-    letter-spacing: 1px;
-    background-color: #0804e779;
-  }
   
   section.pedagogie h2 {
     margin-top: 20px;
@@ -189,3 +179,49 @@
     font-weight: bold;
 }
 
+/* temoignages */
+.temoignages h2 {
+    color: #0454e7;
+    font-size: 36px;
+    border-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+
+section.temoignage h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0804e779;
+
+}
+
+.body-temoignage p {
+    color: gray;
+    font-size: 16px;
+}
+
+.body-temoignage {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.temoignage-pigier {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.temoignage-pigier li a {
+    color: #348ff8;
+    font-weight: bold;
+}
+.temoignage-breadcrumb{
+}
+.vide{
+    height: 100px;
+}
