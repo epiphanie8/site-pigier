@@ -180,7 +180,7 @@
 }
 
 /* temoignages */
-.temoignages h2 {
+.temoignages h2, h3{
     color: #0454e7;
     font-size: 36px;
     border-bottom: 0px;
@@ -225,3 +225,107 @@ section.temoignage h2 {
 .vide{
     height: 100px;
 }
+
+.amazing-deals {
+    margin-top: 120px;
+  }
+  
+  .amazing-deals .item .image {
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+  }
+  .amazing-deals img{
+    height: 400px;
+  }
+  
+  .amazing-deals .item {
+    background-color: #f7f7f7;
+    border-radius: 23px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .amazing-deals .item span.info {
+    color: #22b3c1;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .amazing-deals .item h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .amazing-deals .item i {
+    color: #777;
+    margin-right: 5px;
+  }
+  
+  .amazing-deals .item span.list {
+    font-size: 15px;
+    color: #afafaf;
+    font-weight: 500;
+  }
+  
+  .amazing-deals .item .content {
+    padding: 30px 0px;
+  }
+  
+  .amazing-deals .item p {
+    padding-top: 25px;
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    margin-bottom: 30px;
+  }
+  
+  .amazing-deals ul.page-numbers {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .amazing-deals ul.page-numbers li {
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  
+  .amazing-deals ul.page-numbers li a {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #22b3c1;
+    line-height: 44px;
+    color: #22b3c1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50%;
+    transition: all .3s;
+  }
+  
+  .amazing-deals ul.page-numbers li.active a,
+  .amazing-deals ul.page-numbers li a:hover {
+    background-color: #22b3c1;
+    color: #fff;
+  }
+  
+  .amazing-deals ul.page-numbers li:first-child a,
+  .amazing-deals ul.page-numbers li:last-child a {
+    border: none;
+  }
+  .amazing-deals .item .image {
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 0px;
+  }
+  .amazing-deals .item {
+    padding-right: 0px;
+  }
+  .amazing-deals .item .content {
+    padding: 30px !important;
+  }
+
+  
