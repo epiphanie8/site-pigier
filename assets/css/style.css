@@ -376,3 +376,54 @@ section.temoignage h2 {
     font-weight: bold;
 }
 
+  /* Guide accueil */
+  .guides h2, h5{
+    color: #0454e7;
+    font-size: 36px;
+    border-bottom: 0px;
+    margin-top: 10px;
+
+}
+.guide{
+  background-image: url(../images/guide_accueil.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+  height: 600px;
+}
+  
+  
+  section.guide h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0804e779;
+
+  }
+.body-guide p{
+    color: gray;
+    font-size: 16px;
+}
+.body-guide{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.guide-pigier{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.guide-pigier li a{
+    color: #348ff8;
+    font-weight: bold;
+}
+.body-guide .icon_redirect{
+  width: 30px;
+}
+
