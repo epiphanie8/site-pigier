@@ -487,6 +487,7 @@ section.temoignage h2 {
       font-size: 36px;
       border-bottom: 0px;
       margin-top: 10px;
+      margin-left: 50px;
   
     }
   
@@ -499,7 +500,9 @@ section.temoignage h2 {
       text-align: center;
       height: 600px;
     }
-  
+  .formations{      
+    margin-left: 50px;
+  }
   
     section.formation h2 {
       margin-top: 20px;
@@ -521,6 +524,8 @@ section.temoignage h2 {
     .body-formation {
       margin-top: -30px;
       margin-bottom: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
     }
   
     .formation-pigier {
@@ -537,43 +542,333 @@ section.temoignage h2 {
       width: 30px;
     }
 
-.select_formation{
-  display: inline-block;
-}
 .formation-item {
   /*display: none;/* Masquer toutes les formations par défaut */
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
   position: relative;
   overflow: hidden;
   margin-top: 30px;
-  height: 150px;
-  width: 200px;
+  height: 200px;
+  width: 250px;
 }
-.formation-item .background-image {
+.formation-item .background-image-tourisme {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/guide_accueil.jpg);
+  background-image: url(../images/69940598-48840762.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
   /* Ajustez l'opacité de l'image de fond selon vos préférences */
 }
-.formation-item .content {
-  position: relative;
-  z-index: 1;
-  padding: 20px;
-  color: #fff;
-  background-color: #0453e74e;
+.formation-item .background-image-ad {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  background-image: url(../images/assistante-de-direction.png);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
 }
-.formation-item .content a{
-  color: #fff;
+.formation-item .background-image-cf2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/comptabilite-financiere1.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cf3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/audit-gestion.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cf4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/gestionnaire-comptable.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cf5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/master_cca_1600x900_9.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cf6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/comptabilite-financiere1.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cf7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/iStock-121198814-800x0-c-default.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-rgl2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/istockphoto-1291751221-612x612.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-rgl3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/NEM_software.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-rgl4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/istockphoto-661513516-640x640.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cdm2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/communication-interne-blog-wimi.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cdm3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/cdm.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cdm4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/ge.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cdm5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/1674737670_905_Fiche-Metier-de-Responsable-Marketing.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-cdm6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/talent-developer-marketing-1.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-ad2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/ade.png);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-ad3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/ade.png);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-ad4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/ge.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-ad5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/rh.jpeg);
+  background-size: cover;
+  background-position: center;
+  /* Ajustez l'opacité de l'image de fond selon vos préférences */
+}
+.formation-item .background-image-rgl4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.formation-item a :hover {
+  transform: scale(1.1); 
+}
+.formation-item .content {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  text-transform: uppercase;
-  margin-left: 50px
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  /* background-color: rgba(7, 8, 75, 0.616); */
+  background-color: #0781f36b;
 }
+.formation-item a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+
+}
+#selectNiveau{
+  height: 40px; 
+  width: 250px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  
+}
+#selectFiliere{
+  height: 40px;
+  width: 250px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+
+}
+
+/* bts assistanat de direction */
+  /* Licence */
+  .bts-ads h2{
+    color: #0454e7;
+    font-size: 36px;
+    border-bottom: 0px;
+    margin-top: 10px;
+
+}
+.bts-ad{
+  background-image: url(../images/69940598-48840762.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+  height: 600px;
+}
+  
+  
+  section.bts-ad h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #0804e779;
+
+  }
+.body-bts-ad p{
+    color: gray;
+    font-size: 16px;
+}
+.body-bts-ad{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.bts-ad-pigier{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.bts-ad-pigier li a{
+    color: #348ff8;
+    font-weight: bold;
+}
+.body-bts-ad .icon_redirect{
+  width: 30px;
+}
+
