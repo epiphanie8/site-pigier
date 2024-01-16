@@ -842,6 +842,16 @@ section.temoignage h2 {
   background-image: url(../images/assistante-de-direction.png);
 
 }
+.bts-cf{
+  background-image: url(../images/comptabilite-financiere1.jpg);
+
+}
+.licence-acg{
+  background-image: url(../images/audit-gestion.jpg);
+}
+.licence-cf{
+  background-image: url(../images/gestionnaire-comptable.jpg);
+}
   
   section.detail-formation h2{
     margin-top: 20px;
