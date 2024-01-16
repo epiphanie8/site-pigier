@@ -52,17 +52,6 @@ a:hover {
 	-moz-transition: all 0.1s;	
 	-webkit-transition: all 0.1s;
 }
-.pcss3t > label i {
-	display: block;
-	float: left;
-	margin: 16px 8px 0 -2px;
-	padding: 0;
-	border: 0;
-	outline: none;
-	font-family: FontAwesome;
-	font-style: normal;
-	font-size: 17px;
-}
 .pcss3t > input:checked + label {
 	cursor: default;
 }
@@ -217,7 +206,6 @@ a:hover {
 .pcss3t .typography h2,
 .pcss3t .typography h3,
 .pcss3t .typography h4,
-.pcss3t .typography h5,
 .pcss3t .typography h6 {
 	margin: 40px 0 0 0;
 	padding: 0;
@@ -225,6 +213,12 @@ a:hover {
     color: #0454e7;
     font-weight: bold;
 }
+.pcss3t .typography h5,
+.pcss3t .typography h6{
+	color: #06518f;
+	font-weight: 600;
+}
+
 
 
 .pcss3t .typography h3 {
@@ -476,8 +470,9 @@ a:hover {
 .pcss3t > label {	
 	padding: 0 20px;
 	background: #e5e5e5;
-	font-size: 13px;
+	font-size: 20px;
 	line-height: 49px;
+	font-weight: bold;
 }
 .pcss3t > label:hover {
 	background: #f2f2f2;
@@ -492,6 +487,24 @@ a:hover {
 .pcss3t-steps > label:hover {
 	background: #e5e5e5;	
 }
+/**/
+/* card-header metier*/
+/**/
+
+.card-header i{
+	color: rgb(241, 202, 27);
+}
+.card{
+	margin-bottom: 20px;
+}
+
+.filliere-bottom
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+}
 
 
 /**/
@@ -500,9 +513,9 @@ a:hover {
 .pcss3t-theme-1 > label {
 	margin: 0 5px 5px 0;
 	border-radius: 5px;
-	background: #fff;
+	background: #f5f3f3;
 	box-shadow: 0 2px rgba(0,0,0,0.2);
-	color: #808080;
+	color: #0b73fc;
 	opacity: 0.8;
 }
 .pcss3t-theme-1 > label:hover {
@@ -716,6 +729,7 @@ a:hover {
 		display: none;
 	}
 }
+
 
 
 /*----------------------------------------------------------------------------*/

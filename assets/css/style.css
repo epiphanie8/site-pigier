@@ -820,17 +820,11 @@ section.temoignage h2 {
 
 }
 
-/* bts assistanat de direction */
-  /* Licence */
-  .bts-ads h2{
-    color: #0454e7;
-    font-size: 36px;
-    border-bottom: 0px;
-    margin-top: 10px;
 
-}
-.bts-ad{
-  background-image: url(../images/69940598-48840762.jpg);
+
+
+/* formation detaillee */
+.detail-formation{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -839,9 +833,17 @@ section.temoignage h2 {
   text-align: center;
   height: 600px;
 }
+
+.bts-tourisme{
+  background-image: url(../images/69940598-48840762.jpg);
+
+}
+.licence-ad{
+  background-image: url(../images/assistante-de-direction.png);
+
+}
   
-  
-  section.bts-ad h2{
+  section.detail-formation h2{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 60px;
@@ -852,23 +854,15 @@ section.temoignage h2 {
     background-color: #0804e779;
 
   }
-.body-bts-ad p{
+.body-detail-formation p{
     color: gray;
     font-size: 16px;
 }
-.body-bts-ad{
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-.bts-ad-pigier{
+.detail-formation-pigier{
     margin-top: 40px;
     margin-bottom: 60px;
 }
-.bts-ad-pigier li a{
+.detail-formation li a{
     color: #348ff8;
     font-weight: bold;
 }
-.body-bts-ad .icon_redirect{
-  width: 30px;
-}
-
