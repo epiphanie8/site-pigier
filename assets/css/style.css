@@ -838,6 +838,10 @@ section.temoignage h2 {
   background-image: url(../images/69940598-48840762.jpg);
 
 }
+.bts-ade{
+  background-image: url(../images/ade.png);
+
+}
 .licence-ad{
   background-image: url(../images/assistante-de-direction.png);
 
@@ -849,8 +853,48 @@ section.temoignage h2 {
 .licence-acg{
   background-image: url(../images/audit-gestion.jpg);
 }
+.master-acg{
+  background-image: url(../images/master_cca_1600x900_9.jpg);
+}
 .licence-cf{
   background-image: url(../images/gestionnaire-comptable.jpg);
+}
+.master-cf{
+  background-image: url(../images/comptabilite-financiere1.jpg);
+}
+.master-fisca-droit-aff{
+  background-image: url(../images/iStock-121198814-800x0-c-default.jpg);
+}
+.bts-rgl{
+  background-image: url(../images/istockphoto-1291751221-612x612.jpg);
+}
+.licence-rgl{
+  background-image: url(../images/NEM_software.jpg);
+}
+.master-rgl{
+  background-image: url(../images/istockphoto-661513516-640x640.jpg);
+}
+.bts-cdm{
+  background-image: url(../images/communication-interne-blog-wimi.jpg);
+}
+.licence-cdm{
+  background-image: url(../images/cdm.jpg);
+}
+
+.licence-ge{
+  background-image: url(../images/ge.jpg);
+}
+.licence-marketing{
+  background-image: url(../images/1674737670_905_Fiche-Metier-de-Responsable-Marketing.jpg);
+}
+.master-marketing{
+  background-image: url(../images/talent-developer-marketing-1.jpg);
+}
+.licence-rh{
+  background-image: url(../images/rh.jpeg);
+}
+.master-ade{
+  background-image: url(../images/ade.png);
 }
   
   section.detail-formation h2{

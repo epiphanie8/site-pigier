@@ -23,3 +23,25 @@ function filtrerFormations() {
         }
     });
 }
+
+function listeFormationsMaster() {
+    var selectFiliere = document.getElementById('selectFiliere');
+    var listeFormationsMaster = document.getElementById('listeFormationsMaster');
+    var formations = Array.from(listeFormationsMaster.children);
+
+    // Réinitialisez l'affichage de toutes les formations
+    formations.forEach(function(formation) {
+        formation.style.display = 'none';
+    });
+
+    // Filtrer les formations en fonction des sélections
+    formations.filter(function(formation) {
+        var filiere = formation.getAttribute('data-filiere');
+
+        var filiereSelectionnee = selectFiliere.value;
+
+        if ( (filiereSelectionnee === 'default' || filiere === filiereSelectionnee)) {
+            formation.style.display = 'block';
+        }
+    });
+}

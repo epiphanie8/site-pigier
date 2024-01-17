@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Toutes les Formations | Pigierci</title>
+    <title>Foad | Pigierci</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -135,7 +135,7 @@
             aria-label="breadcrumb">
             <ol class="breadcrumb nav-items">
                 <li class="breadcrumb-item"><a href="../index.html">Accueil</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="./formations.html">Toutes les formations</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="./foad.html">Formation ouverte à distance</a></li>
             </ol>
         </nav>
 
@@ -143,14 +143,12 @@
     <section class="formation-pigier">
         
             <div class="section-heading formations">
-                <h2>FORMATIONS</h2>
+                <h2>Formation ouverte à distance (Foad)</h2>
             </div>
             <div class="body-formation">
                 <select id="selectNiveau" onchange="filtrerFormations()">
                     <option value="default">Triez par Niveau</option>
-                    <option value="bac2">Bac + 2</option>
                     <option value="bac3">Bac + 3</option>
-                    <option value="bac5">Bac + 5</option>
                     <!-- Ajoutez d'autres options selon vos besoins -->
                 </select>
                 
@@ -168,29 +166,11 @@
                     <div class="row">
                         <div class="row" id="listeFormations">
                             <!-- Votre liste de formations ici -->
-                            <div class="col-lg-4 formation-item" data-niveau="bac2" data-filiere="ad">
-                                <div class="background-image-tourisme"></div>
-                               <a href="bts_tourisme_hotellerie.html">
-                                <div class="content">
-                                    BTS Tourisme et Hôtellerie
-                                </div>
-                               </a>
-                            </div>
                             <div class="col-lg-4 formation-item" data-niveau="bac3" data-filiere="ad">
                                 <div class="background-image-ad"></div>
                                 <a href="licence_assistanat_de_direction.html">
                                     <div class="content">
                                         LICENCE Assistanat de Direction
-                                </div>
-                                </a>
-                            </div>
-
-
-                            <div class="col-lg-4 formation-item" data-niveau="bac2" data-filiere="cf">
-                                <div class="background-image-cf2"></div>
-                                <a href="bts_comptabilite_finance.html">
-                                    <div class="content">
-                                        bts Comptabilité finance
                                 </div>
                                 </a>
                             </div>
@@ -209,42 +189,7 @@
                                         licence Finance comptabilité
                                     </div>
                                 </a>
-                            </div>
-                            <div class="col-lg-4 formation-item" data-niveau="bac5" data-filiere="cf">
-                                <div class="background-image-cf5"></div>
-                                <a href="master_audit_controle_de_gestion.html">
-                                    <div class="content">
-                                        master Audit et contrôle de gestion
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-lg-4 formation-item" data-niveau="bac5" data-filiere="cf">
-                                <div class="background-image-cf6"></div>
-                                <a href="master_finance_comptabilité.html">
-                                    <div class="content">
-                                        master Finance comptabilité
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-lg-4 formation-item" data-niveau="bac5" data-filiere="cf">
-                                <div class="background-image-cf7"></div>
-                                <a href="master_fiscalite_droit_des_affaires.html">
-                                    <div class="content">
-                                        MASTER Fiscalité et droit des affaires
-                                    </div>
-                                </a>
-                            </div>
-                            
-
-                            <div class="col-lg-4 formation-item" data-niveau="bac2" data-filiere="rgl">
-                                <div class="background-image-rgl2"></div>
-                                <a href="bts_reseaux_genie_logiciel.html">
-                                    <div class="content">
-                                        BTS Réseaux et Génie Logiciel
-                                    </div>
-                                </a>
-                            </div>
-                            
+                            </div>                                                        
                             <div class="col-lg-4 formation-item" data-niveau="bac3" data-filiere="rgl">
                                 <div class="background-image-rgl3"></div>
                                 <a href="licence_reseaux_genie_logiciel.html">
@@ -252,25 +197,7 @@
                                         LICENCE Réseaux et Génie Logiciel
                                     </div>
                                 </a>
-                            </div>
-                            <div class="col-lg-4 formation-item" data-niveau="bac5" data-filiere="rgl">
-                                <div class="background-image-rgl4"></div>
-                                <a href="master_genie_infor_reseaux.html">
-                                    <div class="content">
-                                        MASTER Génie Informatique et Réseaux
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <div class="col-lg-4 formation-item" data-niveau="bac2" data-filiere="commarketing">
-                                <div class="background-image-cdm2"></div>
-                                <a href="bts_cdm.html">
-                                    <div class="content">
-                                        BTS Communication et Développement de marques
-                                    </div>
-                                </a>
-                            </div>
-                            
+                            </div>                                                        
                             <div class="col-lg-4 formation-item" data-niveau="bac3" data-filiere="commarketing">
                                 <div class="background-image-cdm3"></div>
                                 <a href="licence_cdm.html">
@@ -292,23 +219,6 @@
                                 <a href="licence_marketing.html">
                                     <div class="content">
                                         LICENCE Marketing
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-lg-4 formation-item" data-niveau="bac5" data-filiere="commarketing">
-                                <div class="background-image-cdm6"></div>
-                                <a href="master_marketing.html">
-                                    <div class="content">
-                                        MASTER Marketing
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-4 formation-item" data-niveau="bac5" data-filiere="administrationentreprise">
-                                <div class="background-image-ad3"></div>
-                                <a href="master_admin_entreprise.html">
-                                    <div class="content">
-                                        MASTER Administration des Entreprises
                                     </div>
                                 </a>
                             </div>
